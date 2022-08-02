@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Carolina Point Resort</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.scss">
+    <!-- bootstrap 4 cdn links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&family=Big+Shoulders+Text&family=Inconsolata&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <!-- owl carousel slider  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- ============data-aos============== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-xl fixed-top mb-0 px-5 container-fluid py-3">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon text-white text-center" style="font-size: 35px;">
+                <i class="fa-solid fa-bars-staggered"></i></p>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav align-items-center ">
+                <li class="nav-item cool-link m-1"><a href="index.html" class="nav-link ">HOME</a></li>
+                <li class="nav-item cool-link  m-1"><a href="#" class="nav-link ">ABOUT US</a></li>
+                <li class="nav-item cool-link dropdown m-1">
+                    <a href="#" class="nav-link navbar-toggle" id="navbardrop" data-toggle="dropdown">APARTMENTS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"> Stu Apt 1</a>
+                        <a class="dropdown-item" href="#"> Stu Apt 2</a>
+                        <a class="dropdown-item" href="#"> Stu Apt 3</a>
+                        <a class="dropdown-item" href="#"> Stu Apt 4</a>
+                        <a class="dropdown-item" href="#"> Stu Apt 5</a>
+                        <a class="dropdown-item" href="#"> Penthouse</a>
+
+                    </div>
+                </li>
+                <li class="nav-item cool-link  m-1"><a href="#" class="nav-link ">VILLA</a></li>
+                <li class="nav-item cool-link dropdown m-1">
+                    <a href="#" class="nav-link navbar-toggle" id="navbardrop" data-toggle="dropdown">REVIEWS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"> Our Reviews</a>
+                        <a class="dropdown-item" href="#"> AirBnb Reviews</a>
+                        <a class="dropdown-item" href="#"> B/com Reviews</a>
+                    </div>
+                </li>
+                <li class="nav-item cool-link dropdown m-1">
+                    <a href="#" class="nav-link navbar-toggle" id="navbardrop" data-toggle="dropdown">ATTRACTIONS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"> Things to do </a>
+                        <a class="dropdown-item" href="#"> Restaurants</a>
+                        <a class="dropdown-item" href="#"> Beaches</a>
+                        <a class="dropdown-item" href="#"> Gallery</a>
+                        <a class="dropdown-item" href="#"> Upcomming events</a>
+                    </div>
+                </li>
+                <li class="nav-item cool-link  m-1"><a href="#" class="nav-link ">CONTACT US</a></li>
+                <li class="nav-item cool-link dropdown m-1">
+                    <a href="#" class="nav-link navbar-toggle" id="navbardrop" data-toggle="dropdown">MORE</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Why stay with us</a>
+                        <a class="dropdown-item" href="#"> Booking Policies</a>
+                        <a class="dropdown-item" href="#"> Cancellation Policies</a>
+                        <a class="dropdown-item" href="#"> Emergency Contact</a>
+                        <a class="dropdown-item" href="#"> Getting here</a>
+                        <a class="dropdown-item" href="#"> Guest Services</a>
+                        <a class="dropdown-item" href="#"> Map</a>
+
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav hide1">
+                <li class="nav-item cool-link m-1"> <a href="https://www.facebook.com/" class="nav-link"><i
+                            class="fa-brands fa-facebook"></i> </a></li>
+                <li class="nav-item cool-link m-1"> <a href="#" class="nav-link"><i
+                            class="fa-brands fa-whatsapp"></i> </a></li>
+                <li class="nav-item cool-link m-1"> <a href="https://www.instagram.com/" class="nav-link"><i
+                            class="fa-brands fa-instagram"></i> </a></li>
+                <li class="nav-item cool-link m-1"> <a href="#" class="nav-link"><i
+                            class="fa-brands fa-paypal"></i> </a></li>
+                <li class="nav-item cool-link mx-1 px-2 py-0"> <a href="#" class="nav-link btn bttn text-white">Pay Now</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="container-fluid px-0" id="up-banner">
+        <div class="main-banner">
+            <video src="./image/CarolinaPoint_Resort_u8lbgx.mp4" loop muted autoplay>
+            </video>
+            <div class="banner-content">
+                <h1 class="text-center">Carolina Point Resort</h1>
+                <p class="text-white text-center">Come Discover Tobago</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- main-service-section -->
+    <section class="container-fluid second  px-0 bg-light">
+        <div class="row no-gutters">
+            <div class="col-lg-3 cool-link">
+                <div class="card m-1">
+                    <div class="card-body p-0">
+                        <img src="./image/f1.jpg" alt="photo">
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="text-center hf">APARTMENTS </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 cool-link">
+                <div class="card m-1">
+                    <div class="card-body p-0">
+                        <img src="./image/f2.jpg" alt="photo">
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="text-center hf">Upcomming EVENTS </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 cool-link">
+                <div class="card m-1">
+                    <div class="card-body p-0">
+                        <img src="./image/f3.jpg" alt="photo">
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="text-center hf">ATTRACTIONS </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 cool-link">
+                <div class="card m-1">
+                    <div class="card-body p-0">
+                        <img src="./image/f4.jpg" alt="photo">
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="text-center hf">GUEST SERVICE </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- wellcome section -->
+    <section class="container-fluid px-0 well-main py-5">
+        <div class="row no-gutters well mx-auto">
+            <div class="col-lg-6 px-4 pb-3 pt-4">
+                <div class="well-txt p-4">
+                    <h1 class="hf mb-3  " data-aos="fade-up">Wellcome to <br>
+                        <span>Carolina Point Resort</span>
+                    </h1>
+                    <p >Carolina Point Resort is a modern retreat Guesthouse offering spacious living in a tropical
+                        garden setting with a large patio overlooking the garden. Carolina Point Resort is just 7
+                        minutes walk from the Airport with its back yard touching the caribbean Sea at the entrance to
+                        the iconic Pigeon Point Beach in Tobago. The woody area is well known for its beauty, beaches,
+                        and concentration of fruit trees, flowers and fauna.</p>
+                </div>
+                <div class="well-img1 shadow-lg">
+                    <img src="./image/prop1.jpg" alt="photo">
+                </div>
+            </div>
+            <div class="col-lg-6 px-5 pb-0 pt-5 hide2">
+                <div class="well-img2 shadow-lg">
+                    <img src="./image/prop2.jpg" alt="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- explore section -->
+    <section class="explore-slider container-fluid px-0 py-5">
+        <h1 class="hf px-5 mx-5" data-aos="fade-up">Explore<br>
+            <span>Our Apartments & Villa</span>
+        </h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/1.jpg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Stu Apt 1 - Pigeon PT Beach ($75 USD)</h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/2.jpeg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Stu Apt 2 - Pigeon PT Beach ($75 US) </h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/3.jpeg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Stu Apt.3 -Pigeon PT. Beach ($75 US)</h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/4.jpeg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Stu Apt.4 -Pigeon PT. Beach ($85 US) </h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/5.jpg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Apt.5-1BR Pigeon Point Beach ($95 USD) </h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/6.jpg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Penthouse -Steps from the Beach ($300 USD) </h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/7.jpg" alt="photo">
+                        </div>
+                        <div class="carwar">
+                            <h3 class="hf">Kias Villa ($250 USD) </h3>
+                            <p>1 Bedroom 1 Bathroom </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        centeredSlidesBounds: false,
+                freeMode: true,
+                loop: false,
+                autoPlay: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    '100': {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    '700': {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    '1024': {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                },
+            });
+        </script>
+    </section>
+
+
+    <!-- reviews section -->
+    <section class="container-fluid px-0">
+        <div class="review-banner">
+            <img src="./image/revbg.jpg" alt="bg-photo">
+            <div class="rev-head">
+                <h1 class="hf px-5 " data-aos="fade-up">What Our<br>
+                    <span>Customer's Say</span>
+                </h1>
+            </div>
+            <div class="rev-con text-white" style="height: 500px;">
+                <div class="swiper mySwiper swiper-3">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide ">
+                            <div class="rev mx-auto py-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor magni iste
+                                    veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    consequuntur explicabo iste soluta ad et ut odio libero consectetur molestiae?
+                                    eligendi officia commodi culpa esse non deleniti omnis, iure ut ullam dolores?</p>
+                                <p class="float-right">Clean and Great Location</p> <br> <br>
+                                <p class="float-right">2017-09-01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="rev mx-auto py-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor magni iste
+                                    veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                                    consequuntur explicabo iste soluta ad et ut odio libero consectetur molestiae?
+                                    eligendi officia commodi culpa esse non deleniti omnis, iure ut ullam dolores?</p>
+                                <p class="float-right">Highly Recommended</p> <br> <br>
+                                <p class="float-right">2017-09-01</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="rev mx-auto py-4">
+                                <p>Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Asperiores voluptatum quam fuga quaerat cupiditate laborum totam,
+                                    corporis magni officia iure! adipisicing elit. Hic dolor magni iste veritatis
+                                    eligendi officia commodi culpa esse non deleniti omnis, iure ut ullam dolores?</p>
+                                <p class="float-right">Amazing Stay!</p> <br> <br>
+                                <p class="float-right">2017-09-01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".swiper-3", {
+                      
+                        freeMode: false,
+                        loop: true,
+                        autoPlay: true,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- upcomming events -->
+    <section class="gallery-slider my-5 container-fluid " data-aos="fade-up">
+        <h1 class="hf text-center"><span>Upcomming Events</span></h1>
+        <div class="swiper swiper-2 ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/e1.jpg" alt="photo">
+                        </div>
+                        <div class="card-footer">
+                            <h2 class="text-center hf">Carnival 2022</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/e2.jpg" alt="photo">
+                        </div>
+                        <div class="card-footer">
+                            <h2 class="text-center hf">Independance Day</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/e3.jpg" alt="photo">
+                        </div>
+                        <div class="card-footer">
+                            <h2 class="text-center hf">Great Race 2021</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img src="./image/e4.jpg" alt="photo">
+                        </div>
+                        <div class="card-footer">
+                            <h2 class="text-center hf">Carnival 2022</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".swiper-2", {
+                loop: true,
+                autoplay: true,
+                freeMode: false,
+               
+                breakpoints: {
+                    '100': {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    '700': {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    '1024': {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                },
+
+            });
+        </script>
+    </section>
+
+    <!-- attracton section -->
+    <section class="container-fluid px-0 att" >
+        <h1 class="hf text-center"><span>Attractions</span></h1>
+
+        <div class="row no-gutters">
+            <div class="col-xl-4 att-sec as1">
+                <div class="att-banner">
+                    <h1 class="hf text-center mb-3"> Beaches</h1>
+                  <a href="https://res.cloudinary.com/dhvpuxdzz/video/upload/v1629561206/samples/sea-turtle.mp4"><span class="lnk"><i class="fa-solid fa-arrow-right"></i></span></a>  
+                </div>
+            </div>
+            <div class="col-xl-4 att-sec as2">
+                
+                <div class="att-banner">
+                    <h1 class="hf text-center mb-3"> ATTRACTIONS</h1>
+                    <a href="https://res.cloudinary.com/dhvpuxdzz/video/upload/v1629561206/samples/sea-turtle.mp4"><span class="lnk"><i class="fa-solid fa-arrow-right"></i></span></a>  
+                </div>
+            </div>
+            <div class="col-xl-4 att-sec as3">
+                <div class="att-banner">
+                    <h1 class="hf text-center mb-3">Things to do
+                    </h1>
+                    <a href="https://res.cloudinary.com/duow3jgnd/video/upload/v1573075953/Couple_Swimming_Under_The_Sea_h0jsbb.mp4"><span class="lnk"><i class="fa-solid fa-arrow-right"></i></span></a>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section --> 
+    <footer class="container-fluid bg-dark py-5" id="foot">
+        <div class="row foot mx-auto">
+            <div class="col-lg-3 p-3">
+                <img src="./image/airbnb logo.png" alt="photo">
+            </div>
+            <div class="col-lg-3 p-3">
+                <h2 class="hf pb-3">Quick Links</h2>
+                <ul>    
+                    <li class="nav-item"> <a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item "> <a href="#" class="nav-link">ATTRACTIONS</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link">CONTACT US</a></li>
+                    <li class="nav-item "> <a href="#" class="nav-link">PRIVACY POLICIES</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 p-3">
+                <h2 class="hf pb-3 text-white">Contact us</h2>
+                <p class="  text-white"> Trinidad and Tobago </p>
+                <p class="  text-white">+91 910007730 or +91 9100007731</p>
+                <p class=" k text-white">Support@vortexdigitalworld.com</p>
+            </div>
+            <div class="col-lg-3 p-3">
+                <h2 class="hf pb-3">Subscribe Now</h2>
+                <form action="#" class="form">
+                    <input type="text" class="form-control mb-1" placeholder="Enter Email id here">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </form>
+            </div>
+            <div class="col-12 p-3 up">
+                <div class="float-right"><a href="#"><i class="fa-solid fa-arrow-up"></i></a> </div>
+                <p>@ All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#">
+        <button class="ca">
+            <i class="fa-solid fa-angles-right px-3 "> </i><span> Check Avialblity</span>
+        </button>
+    </a>
+
+
+</body>
+<script>
+    AOS.init
+    ({
+      duration: 2000,
+    })
+    </script>
+
+    <!-- scroll effect script -->
+    <script>
+        $(document).ready(function() {
+      $(window).on('scroll', function() {
+        yPos = window.pageYOffset;
+        shift = yPos * 0.7 + 'px';
+        $('#up-banner').css('top', shift);
+      });
+    
+    });
+    </script>
+
+</html>

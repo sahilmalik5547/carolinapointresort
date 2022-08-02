@@ -1,0 +1,293 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hf{
+    font-family: 'Inconsolata', monospace;
+    
+}
+nav{
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.0));
+font-family: 'Big Shoulders Text', cursive;
+
+}
+nav li a, nav li a:hover{
+    color: #ffffff;
+    font-size: 22px;
+}
+.bttn{
+    background-color: #008080 !important;
+    line-height: 18px ;
+    font-size: 22px !important;
+}
+.main-banner{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+.banner-content h1{
+    font-family: 'Arizonia', cursive;
+    color: #FBCA37;
+    font-size: 95px;
+}
+.banner-content p{
+    font-size: 25px;
+}
+#up-banner{
+    position: relative;
+    z-index: -1;
+}
+.second{
+    position: relative;
+    z-index: 1;
+}
+.second .card-body img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.second .card-body{
+    cursor: pointer;
+}
+
+.card-footer{
+    background-color: #008080 !important;
+    color: #ffffff;
+}
+.well-main{
+    background-image: url(./image/bg1.jpg);
+    background-size:cover;
+    background-position-y: 110%;
+}
+.well{
+    width: 90%;
+}
+.well img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.well-txt p{
+    font-size: 18px;
+}
+.well .well-img1{
+    height: auto;
+    width: 100%;
+}
+.well .well-img2{
+    height: 90%;
+    width: 90%;
+}
+.hf span{
+    color: #008080;
+}
+.explore-slider{
+    background-color: #fff;
+}
+.explore-slider .card-body{
+    position: relative;
+    cursor: pointer;
+}
+.explore-slider .carwar{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+.explore-slider .swiper-button-next,
+.explore-slider .swiper-button-prev{
+    color: #000 !important;
+}
+.explore-slider .card-body img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+.review-banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+.review-banner img{
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+}
+.rev-head{
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+.rev-con{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: max-content;
+    background-color: #008080;
+}
+.rev-con .rev{
+    align-items: center;
+    width: 70%;  
+}
+.rev-con .swiper-button-next,
+.rev-con .swiper-button-prev{
+    color: #fff !important;
+}
+@media screen and (min-width:992px) {
+    .rev-con{
+        left: 55%;
+        width: 60%;
+
+    }
+    .rev-con .rev{
+        font-size: 20px;
+    }
+    .rev-head{
+        left: 20%;
+    }
+
+}
+@media screen and (max-width:992px) {
+    .rev-con{
+        left: 50%;
+        width: 90%;
+    }
+    .rev-con .rev{
+        font-size: 16px;
+    }
+    .rev-head{
+        left: 35%;
+    }
+
+    .hide2{
+        display: none;
+    }
+    .ca{
+        display: none !important;
+    }
+}
+@media screen and (max-width:1200px) {
+    .hide1{
+        display: none !important ;
+    }
+
+}
+
+.gallery-slider .card{
+    height: 300px;
+    cursor: pointer;
+}
+.gallery-slider .card-body img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.att-sec img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.att-sec{
+    position: relative;
+    height: 100vh;
+    cursor: pointer;
+}
+.att-sec .att-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.att-banner a {
+    color: #fff;
+}
+.as1{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), hsla(0, 0%, 0%, 0.4)), url(./image/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.as2{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), hsla(0, 0%, 0%, 0.4)), url(./image/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.as3{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), hsla(0, 0%, 0%, 0.4)), url(./image/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.lnk{
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50% ;
+}
+.foot{
+    width: 80%;
+}
+footer img{
+    width: 100%;
+}
+footer{
+    color: #fff;
+}
+footer li{
+    list-style-type: none;
+ 
+}
+footer li a, footer li a:hover {
+    color: #fff;
+}
+.up a{
+    color: #fff;
+    font-size: 25px;
+}
+.ca{
+    background-image: linear-gradient(to right top, #003a7a, #005895, #007291, #008970, #009a3e) !important;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    padding: 15px;
+    position: fixed;
+    right: 0px;
+    top: 30%;
+    color: white;
+    z-index: 999999;
+    font-size: 22px;
+    border: unset;
+}
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+        /* transition: width .3s; */
+}
+
